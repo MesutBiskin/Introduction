@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-20T03:54:45.724Z",
+        "line": 4,
+        "name": "user on the login page",
+        "description": "",
+        "id": "testing;user-on-the-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4659797000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on the login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user signs in",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_signs_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user validates",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_validates()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deneme"
+          }
+        ]
+      }
+    ],
+    "name": "testing",
+    "description": "",
+    "id": "testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
